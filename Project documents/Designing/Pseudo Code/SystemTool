@@ -1,0 +1,10 @@
+Start
+interface SystemTool()
+    insertData()
+    deleteData()
+    findData()
+    modifyData()
+    displayData()
+    calculateData()
+    printData()
+End

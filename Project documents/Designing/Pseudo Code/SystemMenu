@@ -1,0 +1,44 @@
+Start
+Class SystemMenu
+    welcomeMenu()
+        set tool to new SystemToolImpl()
+        set check to false
+        set decision to ""
+        set sc to Scanner(System.in)
+    while !check
+        Main menu page
+        switch
+            case 1
+                tool.insertData()
+                while true
+                    Proceed to the next step according to the user's choice, go back or continue
+                end while
+            case 2
+                tool.deleteData()
+                while true
+                    Proceed to the next step according to the user's choice, go back or continue
+                end while
+            case 3
+                tool.findData()
+                while true
+                    Proceed to the next step according to the user's choice, go back or continue
+                end while
+            case 4
+                tool.modifyData()
+                while true
+                    Proceed to the next step according to the user's choice, go back or continue
+                end while
+            case 5
+                tool.displayData()
+                while true
+                    Proceed to the next step according to the user's choice, go back or continue
+                end while
+            case 6
+                tool.calculateData()
+                while true
+                    Proceed to the next step according to the user's choice, go back or continue
+                end while
+            case 7
+                System.exit(0)
+            default
+    end switch

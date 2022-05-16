@@ -1,0 +1,32 @@
+Student Information System
+
+    1. writing some description about the project (at least a paragraph)
+    2. the project must contain at least one two-dimensional array
+        i) create a array contain the id and marks of students for calculate the average mark
+    3. the project must could cope with multiple information
+    4. the project must satisfy the properties of object oriented programming
+        i) StudentToolImpl(Class) implement SystemTool(Interface) extends StudentInfo(Class)
+        ii) SystemMenu(Class) extend SystemInfo(Class)
+    5. the project should contain follow functions:
+        a) insert data to array
+            create method insertData
+        b) delete data from array
+            create method deleteData
+        c) find data from array
+            create method findData
+        d) modify a data in array
+            create method modifyData
+        e) display all data in ascending order by sorting
+            create method displayData
+        f) process data from two-dimensional array to calculate an important output
+            create method calculateData
+        g) display data for every interaction by user
+    6. the project must contain a nice menu
+        i)create systemMenu class to design menu
+    7. use project management
+    8. prepare a software project scope document
+    9. design the software by writing pseudo code
+    10. test the program
+    11. make the internal and also external document
+
+

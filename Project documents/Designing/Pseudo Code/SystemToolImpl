@@ -1,0 +1,69 @@
+Start
+class SystemToolImpl()
+    insertData()
+        student = new StudentInfo()
+        sc = new Scanner(System.in)
+        print("What is the id of students?")
+        student.setStudentId(sc.next())
+        print("What is the name of student?")
+        student.setStudentName(sc.next())
+        print("What is the student's mark in the final test?")
+        student.setStudentMark(sc.nextDouble())
+    deleteData()
+        print("what is the id of student you want to delete data?")
+        id = sc.next()
+        for the all array
+            if id of student is equal to the id above
+                for the all array
+                    array[j] = array[j+1]
+                end for
+            end if
+        end for
+    findData()
+        sc = new Scanner(System.in)
+        print("What is the id of student that the data you want to research?")
+        id = sc.next()
+        print("id name mark")
+        for the array
+            if id of student is equal to id above
+                print(studentId, studentName,studentMark)
+            end if
+        end for
+    modifyData()
+        sc = new Scanner(System.in)
+        print("What is the id of student that the data you want to modify?")
+        id = sc.next()
+        for the array
+            if id equal to id above
+                print("What is the id of students?")
+                student.setStudentId(sc.next())
+                print("What is the name of student?")
+                student.setStudentName(sc.next())
+                print("What is the student's mark in the final test?")
+                student.setStudentMark(sc.nextDouble())
+            end if
+        end for
+    displayData()
+        for i=0; i<length(array)-1; i++
+            for j=i+1; i<length(array); j++
+                if studentMark(i)>studentMark(j)
+                    temp = studentInfos[i]
+                    studentInfos[i] = studentInfos[j];
+                    studentInfos[j] = temp;
+                end if
+            end for
+        end for
+        for all array
+            print(studentId, studentName, studentMark)
+        end for
+    calculate()
+        for all array
+            sum += Mark[i][1]
+        end for
+        print(mark)
+    printData()
+        printWriter = new PrintWriter(new FileWriter())
+        for the array
+            printWriter.print(studentId, studentName, studentMark)
+        printWriter.close()
+

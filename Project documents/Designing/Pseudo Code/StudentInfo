@@ -1,0 +1,23 @@
+Start
+Class StudentInfo
+    Set studentId
+    Set studentName
+    Set studentMark
+    Set studentInfos[]
+    Set Marks[][]
+
+    StudentInfo()
+    StudentInfo(studentId, studentName, studentMark)
+    getStudentId()
+        return studentId
+    setStudentId(student Id)
+        this.studentId = studentId
+    getStudentName()
+        return studentName
+    setStudentName(student Name)
+        this.studentName = studentName
+    getStudentMark()
+        return studentMark
+    setStudentMark(student Mark)
+        this.studentMark = studentMark
+ End
